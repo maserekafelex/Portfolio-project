@@ -54,7 +54,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> He or she can follow the linter order of configuration to configure his or her linters successfully
+ He or she can follow the linter order of configuration to configure his or her linters successfully
 
 ### Prerequisites
 
@@ -93,9 +93,9 @@ You can deploy this project by transfering files from your local repository to y
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Cards]**
-- [ ] **[About-us]**
-- [ ] **[Contact-us]**
+- [ ] **Cards**
+- [ ] **About-us**
+- [ ] **Contact-us**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +130,5 @@ I follow the instruction and incase of error i use --fix to fix that error
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
