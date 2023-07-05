@@ -24,6 +24,9 @@ body {
 }
 
 .main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 5rem;
   padding: 24px;
   background-color: #fff;
@@ -51,7 +54,10 @@ body {
 }
 
 .headlines .about {
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
 }
 
 .headlines .intro {
