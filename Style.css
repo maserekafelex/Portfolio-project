@@ -90,9 +90,9 @@ body {
 }
 
 .projects {
+  display: flex;
+  flex-direction: column;
   margin-block: 104px;
-  display: grid;
-  grid-template-columns: 1fr;
   width: 90%;
   border-radius: 10px;
   background-color: #fff;
@@ -134,6 +134,8 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  color:#7f8cff;
+  font-size: 85%;
 }
 
 .btns li {
@@ -162,6 +164,10 @@ body {
   font-weight: 600;
 }
 
+.detail-btn:hover {
+  background-color: #396df2;
+} 
+
 #about-me {
   background-color: #fff;
   border-top-right-radius: 80px;
@@ -189,6 +195,10 @@ body {
   margin-left: 10px;
 }
 
+.btn-about:hover {
+  background-color: #396df2;
+}
+
 .fraze {
   display: flex;
   flex-direction: row;
@@ -199,7 +209,7 @@ body {
 .fraze img {
   height: 10px;
   width: 10px;
-  margin-left: 47%;
+  margin-left: 38%;
   align-self: center;
 }
 
@@ -209,7 +219,7 @@ body {
   border-radius: 5px;
   padding-right: -45%;
   gap: 15px;
-  margin-right: 26%;
+  margin-right: 30%;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
@@ -233,7 +243,7 @@ body {
 }
 
 .frm img {
-  margin-left: 50%;
+  margin-left: 35%;
 }
 
 .fa-list {
@@ -245,7 +255,7 @@ body {
 }
 
 .fa-list img {
-  margin-left: 64%;
+  margin-left: 50%;
 }
 
 .text {
