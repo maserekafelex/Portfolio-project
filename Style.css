@@ -56,7 +56,7 @@ body {
 .headlines .about {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
   padding: 10px;
 }
 
