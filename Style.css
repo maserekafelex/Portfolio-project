@@ -24,6 +24,9 @@ body {
 }
 
 .main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 5rem;
   padding: 24px;
   background-color: #fff;
@@ -51,6 +54,9 @@ body {
 }
 
 .headlines .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
   padding: 10px;
 }
 

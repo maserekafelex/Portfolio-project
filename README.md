@@ -99,9 +99,7 @@ You can deploy this project by transfering files from your local repository to y
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🤝 Contributing <a name="contributing"></a>
-
 
 Feel free to check the [issues page](../../issues/).
 
@@ -118,14 +116,6 @@ If you like this project, kindly contact me on my github:Auther(#authors)
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I thank my partiners in learning and coding for better success in this program.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-How did this man fix the linters ?
-I follow the instruction and incase of error i use --fix to fix that error
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
