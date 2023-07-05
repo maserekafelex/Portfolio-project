@@ -134,7 +134,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  color:#7f8cff;
+  color: #7f8cff;
   font-size: 85%;
 }
 
@@ -166,7 +166,7 @@ body {
 
 .detail-btn:hover {
   background-color: #396df2;
-} 
+}
 
 #about-me {
   background-color: #fff;
