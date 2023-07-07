@@ -243,19 +243,6 @@ hr {
   color: rgba(173, 173, 173, 0.13);
 }
 
-.frm {
-  padding: 20px;
-  font-size: 20px;
-  font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  list-style: none;
-  margin-left: -10px;
-}
-
-.frm img {
-  margin-left: 56%;
-}
-
 .fa-list {
   padding: 10px;
   font-size: 20px;
