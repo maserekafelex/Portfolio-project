@@ -249,10 +249,11 @@ hr {
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   list-style: none;
+  margin-left: -10px;
 }
 
 .frm img {
-  margin-left: 55%;
+  margin-left: 64%;
 }
 
 .fa-list {
