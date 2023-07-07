@@ -262,6 +262,8 @@ hr {
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .fa-list img {
