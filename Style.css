@@ -241,6 +241,7 @@ body {
 hr {
   margin-top: 20px;
   color: rgba(173, 173, 173, 0.13);
+  width: 195%;
 }
 
 .fa-list {
