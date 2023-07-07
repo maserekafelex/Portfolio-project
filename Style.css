@@ -89,6 +89,11 @@ body {
   padding-top: 10px;
 }
 
+#cards {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -209,33 +214,37 @@ body {
 .fraze img {
   height: 10px;
   width: 10px;
-  margin-left: 38%;
+  margin-left: 47%;
   align-self: center;
 }
 
 .language-list li {
+  display: flex;
+  align-items: center;
   list-style-type: none;
-  background-color: rgba(173, 173, 173, 0.596);
-  border-radius: 5px;
-  padding-right: -45%;
+  background-color: rgba(173, 173, 173, 0.13);
+  border-radius: 15px;
   gap: 15px;
   margin-right: 30%;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 10px;
+  padding: 2%;
 }
 
 .language-list img {
   padding-top: 5px;
   margin-left: 7px;
+  width: 20%;
 }
 
-.la-list span {
-  padding: 10px;
+hr {
+  margin-top: 20px;
+  color: rgba(173, 173, 173, 0.13);
 }
 
 .frm {
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
@@ -243,7 +252,7 @@ body {
 }
 
 .frm img {
-  margin-left: 35%;
+  margin-left: 47%;
 }
 
 .fa-list {
@@ -255,7 +264,7 @@ body {
 }
 
 .fa-list img {
-  margin-left: 50%;
+  margin-left: 57%;
 }
 
 .text {
