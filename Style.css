@@ -1,0 +1,272 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  font-family: "Poppins", sans-serif;
+  background: url("./image/icons/header-shapes\ mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #fff;
+  margin-bottom: 12%;
+  border-bottom-left-radius: 40px;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5rem;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.menu-lists {
+  display: none;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.info a {
+  text-decoration: none;
+  color: #6070ff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+
+.headlines .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.headlines .intro {
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.about p {
+  margin-top: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+}
+
+.connect {
+  padding: 0 10px;
+  color: #7f8cff;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icons li {
+  list-style: none;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-block: 104px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-tile {
+  font-size: 38px;
+  margin-block: 15px;
+  color: #172b4d;
+}
+
+.stack-year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stack-year .title {
+  color: #344563;
+}
+
+.lang-year {
+  color: #7a869a;
+}
+
+.detail-text {
+  margin-block: 10px;
+  color: #344563;
+  font-size: 16px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #7f8cff;
+  font-size: 85%;
+}
+
+.btns li {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.detail-btn {
+  padding: 15px 10px;
+  padding: 15px 5px;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #396df2;
+  width: 50%;
+  width: 150px;
+  margin-block: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.detail-btn:hover {
+  background-color: #396df2;
+}
+
+#about-me {
+  background-color: #fff;
+  border-top-right-radius: 80px;
+  padding: 20px;
+}
+
+.text-h {
+  padding-top: 30%;
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+.btn-about {
+  padding: 15px 10px;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #396df2;
+  width: fit-content;
+  margin-block: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.btn-about:hover {
+  background-color: #396df2;
+}
+
+.fraze {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.fraze img {
+  height: 10px;
+  width: 10px;
+  margin-left: 58%;
+  align-self: center;
+}
+
+.language-list li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: rgba(173, 173, 173, 0.13);
+  border-radius: 10px;
+  gap: 15px;
+  margin-right: 3%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 2%;
+}
+
+.language-list img {
+  padding-top: 5px;
+  margin-left: 7px;
+  width: 20%;
+}
+
+hr {
+  margin-top: 20px;
+  color: rgba(173, 173, 173, 0.13);
+  width: 195%;
+}
+
+.fa-list {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.fa-list img {
+  margin-left: 74%;
+}
+
+.text {
+  width: 350px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
