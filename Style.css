@@ -256,7 +256,9 @@ hr {
 .fa-list img {
   margin-left: 74%;
 }
-
+.shape {
+  margin-left: 7rem;
+}
 .text {
   width: 350px;
   height: 50px;
