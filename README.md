@@ -78,7 +78,6 @@ You can deploy this project by transfering files from your local repository to y
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 👥 Authors <a name="Masereksfelex">maserekafelex</a>
 
 👤 **Author1**
@@ -103,9 +102,7 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project, kindly contact me on my github:Auther(#authors)
 
