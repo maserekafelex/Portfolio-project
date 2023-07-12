@@ -4,9 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.shape {
-  margin-left: 7rem;
-}
+
 body {
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
@@ -333,4 +331,8 @@ textarea {
 
 .button:hover {
   background-color: #396df2;
+}
+
+.shape {
+  margin-left: 7rem;
 }
