@@ -46,11 +46,9 @@
   </ul>
 </details>
 
-
 ### Key Features <a name="key-features"></a>
 
 - **[Home page]**
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
