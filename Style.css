@@ -1,4 +1,4 @@
-/* eslint-disable */
+
 * {
   margin: 0;
   padding: 0;
@@ -156,7 +156,7 @@ body {
   gap: 10px;
   list-style-type: none;
 }
-
+/* stylelint-disable-next-line rule-empty-line-before */
 .detail-btn {
   padding: 15px 10px;
   padding: 15px 5px;
