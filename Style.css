@@ -262,13 +262,13 @@ hr {
 }
 
 .text {
-  padding-top: 8 rem;
   font-weight: 700;
   font-size: 40px;
   display: flex;
   color: #fff;
   justify-content: center;
   margin-top: -112px;
+  padding-top: 83px;
 }
 
 .pa {
@@ -333,5 +333,5 @@ textarea {
 }
 
 .pel {
-  margin-left: 7rem;
+  margin-left: 8rem;
 }
