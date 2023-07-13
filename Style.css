@@ -158,14 +158,18 @@ body {
 
 .detail-btn {
   padding: 15px 10px;
-  font-size: 17px;
-  font-weight: 600;
+  padding: 15px 5px;
+  border-radius: 8px;
   color: #6070ff;
   background-color: #fff;
+  outline: none;
+  border: 1px solid #396df2;
   width: 50%;
+  width: 150px;
   margin-block: 30px;
   cursor: pointer;
-  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .detail-btn:hover {
