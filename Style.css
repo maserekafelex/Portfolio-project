@@ -257,7 +257,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
+/* stylelint-disable-next-line rule-empty-line-before */
 .fa-list img {
   margin-left: 74%;
 }
