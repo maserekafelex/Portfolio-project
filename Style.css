@@ -61,7 +61,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
 }
 
 .headlines .intro {
@@ -261,7 +260,7 @@ hr {
 .fa-list img {
   margin-left: 74%;
 }
-/* stylelint-disable-next-line rule-empty-line-before */
+
 .text {
   font-weight: 700;
   font-size: 40px;
