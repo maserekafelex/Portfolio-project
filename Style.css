@@ -176,6 +176,8 @@ body {
   background-color: #396df2;
 }
 
+/* Add empty line before the following rules */
+
 #about-me {
   background-color: #fff;
   border-top-right-radius: 80px;
