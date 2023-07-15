@@ -357,6 +357,10 @@ textarea {
     border-bottom-left-radius: 40px;
   }
 
+  .desk-pa {
+    margin-left: 256px;
+  }
+
   .info img {
     display: none;
   }
@@ -377,6 +381,18 @@ textarea {
     display: flex;
     gap: 10%;
     margin-right: 7%;
+  }
+
+  .about .desk-pa {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: left;
+    width: 714px;
+    margin-top: 12px;
+    font-weight: 400;
+    color: #344563;
   }
 
   .language-list img {
@@ -406,7 +422,7 @@ textarea {
     font-weight: 700;
   }
 
-  .headlines {
+  .about-1 .headlines {
     display: grid;
     grid-template-columns: 40% 60%;
   }
@@ -428,10 +444,10 @@ textarea {
     line-height: 28px;
     letter-spacing: 0;
     text-align: left;
-    width: 714px;
     margin-top: 12px;
     font-weight: 400;
     color: #344563;
+    width: 100%;
   }
 
   .about-1 {
@@ -609,10 +625,6 @@ textarea {
   }
 
   #desk-pa {
-    margin-left: 256px;
-  }
-
-  .desk-pa {
     margin-left: 256px;
   }
 
