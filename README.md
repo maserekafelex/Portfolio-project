@@ -54,9 +54,6 @@
 
 - [Live Demo Link](https://maserekafelex.github.io/potifolio)
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://github.com/maserekafelex/Portfolio-project/4)
 ## 💻 Getting Started <a name="getting-started"></a>
 
  He or she can follow the linter order of configuration to configure his or her linters successfully
