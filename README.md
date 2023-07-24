@@ -45,6 +45,12 @@
     <li><a href="#">CSS</a></li>
   </ul>
 </details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
