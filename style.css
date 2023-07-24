@@ -18,10 +18,11 @@ li {
   list-style: none;
 }
 
-a{
+a {
   color: #fff;
   text-decoration: none;
 }
+
 .navbar {
   min-height: 70px;
   display: flex;
@@ -58,50 +59,52 @@ a{
 }
 
 .bar {
-  display:block;
+  display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
-   transition: all 0.3s ease-in-out;
-   background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
 }
 
-@media(max-width: 768px){
- .hamburger{
-  display: block;
- } 
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
 
-.hamburger.active .bar:nth-child(2){
-  opacity: 0;
-}
-.hamburger.active .bar:nth-child(1){
-  transform: translateY(8px) rotate(45deg);
-}
-.hamburger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg);
-}
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
 
-.nav-menu {
-  position: fixed;
-  left: -100%;
-  top: 0px;
-  flex-direction: column;
-  background-color: hwb(234 25% 16% / 0.902);
-  width: 100%;
-  transition: 0.3s;
-  margin-left: 3px;
-  height: 100%;
-  color: #054bfb;
-}
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
 
-.nav-item {
-  margin: 16px 0;
-}
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-.nav-menu.active {
-  left: 0;
-}
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    flex-direction: column;
+    background-color: hwb(234 25% 16% / 0.902);
+    width: 100%;
+    transition: 0.3s;
+    margin-left: 3px;
+    height: 100%;
+    color: #054bfb;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
 }
 
 .container {
@@ -116,10 +119,6 @@ a{
   margin-bottom: 12%;
   border-bottom-left-radius: 40px;
 }
-
-a{
-  color: #fff;
-  text-decoration: none;}
 
 .headlines .about {
   display: flex;
@@ -416,7 +415,14 @@ textarea {
     display: flex;
   }
 
-  .half li a{
+  .info a {
+    text-decoration: none;
+    color: #6070ff;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .half li a {
     color: #054bfb;
   }
 
@@ -473,13 +479,6 @@ textarea {
 
   .men .info img {
     display: none;
-  }
-
-  .info a {
-    text-decoration: none;
-    color: #6070ff;
-    font-size: 20px;
-    font-weight: 700;
   }
 
   .about-1 .headlines {
