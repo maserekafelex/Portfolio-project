@@ -8,20 +8,25 @@
     <title>Portfolio-project</title>
 </head>
 <body>
-    <header class="main-header">
+    <header>
+        <div id="brand"><a href="#">MASEREKA</a></div>
         <nav>
-            <div class="info">
-                <div class="wan">
-                <a href="#" class="info-text">MASEREKA</a>
-            </div>
-                <img src="image/icons/hamburger-icon.svg" alt="hamburger-icon-menu" class="info-image">
-                <ul class="menu-lists">
-                    <li class="item"><a href="#portfolio">Portfolio</a></li>
-                    <li class="item"><a href="#about">About</a></li>
-                    <li class="item"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+        <ul class="half">
+            <li><a href="/cards">portfolio</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
         </nav>
+        <div id="hambuger-icon" onclick="toggleMobilemenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+            <li><a href="/portfolio">portfolio</a></li>
+            <li><a href="/About">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="headlines">
@@ -49,11 +54,9 @@
             </div>
         </section>
 
-
  <section>
        <div id="cards">
             <div class="projects">
-                <div></div>
                 <img src="image/bg/Snapshoot Portfolio-1.png" alt="Snapshoot Portfolio-1.png" class="project-image">
                 <div>
                     <div class="project-details">
@@ -238,5 +241,6 @@
                                     
                      </section>
             </section>
+            <script src="menu.js"></script>
 </body>
 </html>
