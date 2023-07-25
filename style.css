@@ -107,12 +107,16 @@ a {
     color: #fff;
   }
 
+  .nav-item {
+    margin-top: 80px;
+  }
+
   .nav-item a {
     display: flex;
-    margin-top: 80px;
-    margin-left: -300px;
+    margin-left: -280px;
     font-weight: 300;
     font-size: 150%;
+    margin-top: 17px;
   }
 
   .nav-menu.active {
