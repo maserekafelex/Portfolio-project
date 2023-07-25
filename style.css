@@ -35,7 +35,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
 }
 
 .nav-branding {
@@ -57,6 +56,7 @@ a {
   display: none;
   cursor: pointer;
   background-color: #325bc0a5;
+  margin-top: -30px;
 }
 
 .bar {
@@ -71,6 +71,8 @@ a {
 
 @media (max-width: 768px) {
   .hamburger {
+    margin-left: 36em;
+    position: fixed;
     display: block;
   }
 
@@ -84,6 +86,10 @@ a {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .hamburger.active {
+    background-color:unset;
   }
 
   .nav-menu {
