@@ -48,10 +48,6 @@ a {
   color: #054bfbad;
 }
 
-.nav-link:hover {
-  color: blue;
-}
-
 .hamburger {
   display: none;
   cursor: pointer;
