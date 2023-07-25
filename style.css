@@ -71,7 +71,7 @@ a {
 
 @media (max-width: 768px) {
   .hamburger {
-    margin-left: 36em;
+    margin-left: 34em;
     position: fixed;
     display: block;
   }
@@ -108,15 +108,15 @@ a {
   }
 
   .nav-item {
-    margin-top: 80px;
+    margin-top: 50px;
   }
 
   .nav-item a {
     display: flex;
     margin-left: -280px;
-    font-weight: 300;
-    font-size: 150%;
-    margin-top: 17px;
+    font-weight: 550;
+    font-size: 270%;
+    margin-top: 45px;
   }
 
   .nav-menu.active {
