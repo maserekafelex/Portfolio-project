@@ -46,10 +46,11 @@ a {
 
 .nav-link {
   transition: 0.7s ease;
+  color: #054bfbad;
 }
 
 .nav-link:hover {
-  color: dodgerblue;
+  color: blue;
 }
 
 .hamburger {
@@ -92,14 +93,20 @@ a {
     flex-direction: column;
     background-color: hwb(234 25% 16% / 0.902);
     width: 100%;
-    transition: 0.3s;
-    margin-left: 3px;
     height: 100%;
     color: #054bfb;
   }
 
-  .nav-item {
-    margin: 16px 0;
+  .nav-link {
+    color: #fff;
+  }
+
+  .nav-item a {
+    display: flex;
+    margin-top: 80px;
+    margin-left: -300px;
+    font-weight: 300;
+    font-size: 150%;
   }
 
   .nav-menu.active {
