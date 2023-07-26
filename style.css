@@ -34,7 +34,6 @@ a {
 .nav-menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .nav-branding {
@@ -67,7 +66,7 @@ a {
 
 @media (max-width: 768px) {
   .hamburger {
-    margin-left: 34em;
+    margin-left: 18em;
     position: fixed;
     display: block;
   }
@@ -109,10 +108,10 @@ a {
 
   .nav-item a {
     display: flex;
-    margin-left: -280px;
     font-weight: 550;
-    font-size: 270%;
-    margin-top: 45px;
+    font-size: 225%;
+    margin-top: 29px;
+    margin-left: 2rem;
   }
 
   .nav-menu.active {
