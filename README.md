@@ -36,18 +36,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="#">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
     <li><a href="#">CSS</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Server</summary>
-  <ul>
     <li><a href="#">JavaScript</a></li>
   </ul>
 </details>
