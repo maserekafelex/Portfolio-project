@@ -10,12 +10,12 @@ function validateForm() {
 
   // Check if inputs are empty
   if (name.trim() === '') {
-    document.getElementById('nameError').textContent = 'Please enter your name';
+    document.getElementById('nameError');
     return false;
   }
 
   if (email.trim() === '') {
-    document.getElementById('emailError').textContent = 'Please enter your email';
+    document.getElementById('emailError');
     return false;
   }
 
