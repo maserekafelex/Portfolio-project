@@ -36,20 +36,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">CSS</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">JavaScript</a></li>
+    <li><a href="https://web.dev/learn/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
   </ul>
 </details>
 
@@ -93,9 +82,8 @@ You can deploy this project by transfering files from your local repository to y
 
 👤 **Author1**
 
-- GitHub: [maserekafelex](https://github.com/githubmaserekafelex)
-- Twitter: [@maserekafelex](https://twitter.com/twittermaserekafelex)
-- LinkedIn: [Masereka Felex](https://linkedin.com/in/linkedinMaserekafelex)
+- GitHub: [maserekafelex](https://github.com/maserekafelex)
+- LinkedIn: [Masereka Felex](https://linkedin.com/in/masereka-felex-785294257)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

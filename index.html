@@ -228,15 +228,15 @@
                     or a
                     project that needs coding.
                     I’d love to help with it!</p>
-                <form class="form" name="myForm" action="https://formspree.io/f/xknaewqk" method="post">
+                <form class="form" name="myForm" action="https://formspree.io/f/xknaewqk" method="post" onsubmit="return validateForm()">
                     <input type="text" id="name" name="name" maxlength="30" placeholder="Name" required /><br>
-                    <span id="nameE rror" class="error"></span><br>
+                    <span id="nameError" class="error"></span><br>
 
                     <input type="text" id="email" name="email" placeholder="Please enter your email here" required><br>
                     <span id="emailError" class="error"></span><br>
 
                     <textarea id="message" name="message" placeholder="write something here......" maxlength="500"
-                        required></textarea><br>
+                    ></textarea><br>
                     <span id="messageError" class="error"></span><br>
 
                     <input type="submit" value="Get in touch" class="button">
@@ -248,6 +248,7 @@
         </section>
         </section>
         <script src="index.js"></script>
+        <script src="validation.js"></script>
 </body>
 
 </html>
