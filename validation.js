@@ -2,7 +2,6 @@ function validateForm() {
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
-
   // Reset error messages
   document.getElementById('nameError').textContent = '';
   document.getElementById('emailError').textContent = '';
@@ -29,9 +28,6 @@ function validateForm() {
     document.getElementById('emailError').textContent = 'Please enter a valid email (lowercase only)';
     return false;
   }
-
-  // Validation successful
-  //   alert('Form submitted successfully!');
   return true;
 }
 
