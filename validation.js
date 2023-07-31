@@ -1,4 +1,5 @@
 function validateForm() {
+  // get dom elements by id
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
@@ -23,6 +24,7 @@ function validateForm() {
     return false;
   }
 
+  // email patteren 
   const emailPattern = /^\w+([-]?\w+)*@\w+([.-]?\w+)*(\w{2,3})+$/;
   if (!email.match(emailPattern) || email !== email.toLowerCase()) {
     document.getElementById('emailError').textContent = 'Please enter a valid email (lowercase only)';
