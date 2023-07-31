@@ -1,14 +1,11 @@
 <a name="readme-top"></a>
-
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [👁 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -57,7 +54,7 @@
 
 - **[Home page]**
   
-## 🚀 Live Demo <a name="live-demo"></a>
+## 👁 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://maserekafelex.github.io/potifolio)
 
