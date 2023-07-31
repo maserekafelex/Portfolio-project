@@ -92,7 +92,6 @@ a {
     left: -100%;
     top: 0;
     flex-direction: column;
-    background-color: hwb(234 25% 16% / 0.902);
     width: 100%;
     height: 100%;
     color: #054bfb;
@@ -303,7 +302,6 @@ a {
 
 .botom {
   margin-left: 10%;
-  height: 20;
 }
 
 .detailed-text {
@@ -919,7 +917,6 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    overflow: auto;
   }
 
   #popupContainer.show {
@@ -1026,18 +1023,10 @@ textarea {
   }
 
   #dota .btn-about {
-      display: flex;
-      padding: 15px 10px;
-      border-radius: 8px;
-      color: #6070ff;
-      outline: none;
-      border: 1px solid #396df2;
-      width: fit-content;
-      margin-block: 20px;
-      cursor: pointer;
-      font-size: 17px;
-      font-weight: 600;
-      margin-left: 10px;
+    display: flex;
+    margin-block: 20px;
+    align-items: center;
+    padding: 1%;
   }
 
   #dota .btn-about:hover {
