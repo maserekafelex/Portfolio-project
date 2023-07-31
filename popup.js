@@ -99,11 +99,14 @@ document.addEventListener('DOMContentLoaded', () => {
               <img src="${project.imageSrc}" alt="${project.projectTitle}" class="popup-img">
               <div id="last">
                 <p class="detailed-text">${project.projectDescription}</p>
+                <div id="lest">
                 <ul class="bts">
                   ${project.technologies.map((tech) => `<li class="btn">${tech}</li>`).join('')}
                 </ul>
                 <div id="dota">
-                  <button id="closePopupButton" class="data">Close</button>
+                <button class="btn-about">see live <span><img id=ico src="image/bg/Icon - Export.svg" alt="Icon-Export"></span></button>
+                <button class="btn-about">see source <span><img src="image/arrows/Vector.jpg" alt="Vector"></span></button>
+                </div>
                 </div>
               </div>
             </div>
@@ -129,3 +132,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
