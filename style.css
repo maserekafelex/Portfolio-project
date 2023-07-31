@@ -195,8 +195,10 @@ a {
 
 .stack-year {
   display: flex;
-  justify-content: space-between;
+
+  /* justify-content: space-between; */
   align-items: center;
+  gap: 18px;
 }
 
 .stack-year .title {
@@ -249,6 +251,124 @@ a {
 
 .detail-btn:hover {
   background-color: #396df2;
+}
+
+#popup {
+  display: flex;
+  flex-direction: column;
+  margin-block: 104px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 50px auto;
+}
+
+#popupContainer.show {
+  display: block;
+}
+
+#popup-img {
+  width: 100%;
+}
+
+.popup-tile {
+  font-size: 38px;
+  margin-block: 15px;
+  color: #172b4d;
+}
+
+.stack-ya {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.stack-ya .title {
+  color: #344563;
+  font-size: 90%;
+}
+
+#dota {
+  margin-left: -4px;
+  display: flex;
+  gap: 9%;
+}
+
+.lang-ya {
+  color: #7a869a;
+  font-size: 90%;
+}
+
+.botom {
+  margin-left: 10%;
+  height: 20;
+}
+
+.detailed-text {
+  margin-block: 20px;
+  color: #344563;
+  font-size: 16px;
+}
+
+.bts {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #7f8cff;
+  font-size: 85%;
+}
+
+.bts li {
+  display: flex;
+  flex-direction: row;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.bts .both {
+  display: none;
+}
+
+.data {
+  padding: 7px 5px;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  width: 130px;
+  margin-block: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+#popupContainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popupContent {
+  background-color: #fff;
+  max-width: 335px;
+  margin: 100px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#closePopupButton {
+  cursor: pointer;
+  margin-left: 90%;
+  font-size: large;
 }
 
 #about-me {
@@ -589,11 +709,13 @@ textarea {
   .stack-year .title {
     color: #344563;
     margin-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
   .lang-year {
     color: #7a869a;
-    margin-right: 30%;
+    margin-right: 8%;
   }
 
   .detail-text {
@@ -789,5 +911,142 @@ textarea {
 
   .pel {
     display: none;
+  }
+
+  #popupContainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+
+  #popupContainer.show {
+    display: block;
+  }
+
+  .popupContent {
+    background-color: #fff;
+    max-width: 80%;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  #closePopupButton {
+    cursor: pointer;
+    margin-left: 97%;
+    font-size: 30px;
+  }
+
+  #popup {
+    display: flex;
+    flex-direction: column;
+    margin-block: 104px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 50px auto;
+  }
+
+  .popup-img {
+    width: 100%;
+    height: 20%;
+  }
+
+  #popup .popup-img {
+    width: 100%;
+  }
+
+  .detailed-text {
+    margin-block: 10px;
+    color: #344563;
+    font-size: 16px;
+    margin-left: 2em;
+  }
+
+  #popup-tile {
+    margin-block: 15px;
+    color: #172b4d;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 40px;
+    color: #172b4d;
+    margin-left: 20px;
+    font-weight: 700;
+  }
+
+  .stack-ya {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .stack-ya .title {
+    color: #344563;
+    font-size: 90%;
+  }
+
+  .lang-ya {
+    color: #7a869a;
+    font-size: 66%;
+    margin-right: 4%;
+  }
+
+  .botom {
+    margin-left: 10%;
+  }
+
+  .bts {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #7f8cff;
+    font-size: 85%;
+  }
+
+  .bts .both {
+    display: block;
+  }
+
+  .bts li {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+    gap: 10px;
+    list-style-type: none;
+  }
+
+  #dota {
+    display: flex;
+    gap: 35%;
+    color: #6070ff;
+    background-color: #fff;
+    width: 22%;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .data {
+    margin-left: 20px;
+
+    /* margin-right: -30%; */
+  }
+
+  #last {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    margin-top: 32px;
+    gap: 51%;
   }
 }
