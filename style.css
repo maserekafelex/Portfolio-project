@@ -390,6 +390,14 @@ textarea {
   width: 89%;
 }
 
+.error {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 43%;
+  padding: 20px;
+}
+
 .button {
   color: #396df2;
   background: rgba(255, 255, 255, 1);
@@ -776,6 +784,7 @@ textarea {
     width: 159px;
     margin-left: 46%;
     border: none;
+    margin-top: 10px;
   }
 
   .pel {
