@@ -88,12 +88,12 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="project-details">
                 <button id="closePopupButton">X</button>
                 <h2 id="popup-title">${project.projectTitle}</h2>
-                <div class="stack-year">
+                <div class="stack-ya">
                   <h3 class="title">${project.stack}</h3>
                   <img src="image/icons/Counter.png" alt="counter">
-                  <h4 class="lang-year">${project.role}</h4>
+                  <h4 class="lang-ya">${project.role}</h4>
                   <img src="image/icons/Counter.png" alt="counter">
-                  <h4 class="lang-year">${project.year}</h4>
+                  <h4 class="lang-ya">${project.year}</h4>
                 </div>
               </div>
               <img src="${project.imageSrc}" alt="${project.projectTitle}" class="popup-img">

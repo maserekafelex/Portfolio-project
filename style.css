@@ -194,8 +194,6 @@ a {
 
 .stack-year {
   display: flex;
-
-  /* justify-content: space-between; */
   align-items: center;
   gap: 18px;
 }
@@ -282,22 +280,29 @@ a {
   gap: 20px;
   align-items: center;
   margin-top: 30px;
+  font-size: 26px;
+  margin-bottom: 10px;
 }
 
 .stack-ya .title {
   color: #344563;
-  font-size: 90%;
+  font-size: 50%;
+  margin-left: 3px;
 }
 
 #dota {
   margin-left: -4px;
   display: flex;
-  gap: 9%;
+  gap: 3%;
+}
+
+#dota:hover {
+  color: #fff;
 }
 
 .lang-ya {
   color: #7a869a;
-  font-size: 90%;
+  font-size: 50%;
 }
 
 .botom {
@@ -367,6 +372,8 @@ a {
   cursor: pointer;
   margin-left: 90%;
   font-size: large;
+  background: none;
+  border: none;
 }
 
 #about-me {
@@ -382,7 +389,7 @@ a {
 }
 
 .btn-about {
-  padding: 15px 10px;
+  padding: 6px 10px;
   border-radius: 8px;
   color: #6070ff;
   background-color: #fff;
@@ -392,12 +399,12 @@ a {
   margin-block: 30px;
   cursor: pointer;
   font-size: 17px;
-  font-weight: 600;
   margin-left: 10px;
 }
 
 .btn-about:hover {
   background-color: #396df2;
+  color: #fff;
 }
 
 .fraze {
@@ -954,6 +961,7 @@ textarea {
 
   #popup .popup-img {
     width: 100%;
+    height: 300px;
   }
 
   .detailed-text {
@@ -979,10 +987,11 @@ textarea {
 
   .stack-ya {
     display: flex;
+    gap: 23px;
     align-items: center;
     margin-top: 30px;
-    justify-content: flex-start;
-    margin-bottom: 30px;
+    font-size: 23px;
+    margin-bottom: 7px;
   }
 
   .stack-ya .title {
